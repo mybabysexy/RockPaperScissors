@@ -39,6 +39,10 @@ $(function() {
 		},2000);
 	});
 
+	$('#startBtnDiv').click(function() {
+		start();
+	});
+
 	$('input').keyup(function() { //change name input field size by input length
 		var input_length = $(this).val().length;
 		if(input_length == 0) {

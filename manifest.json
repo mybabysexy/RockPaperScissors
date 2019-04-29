@@ -1,0 +1,11 @@
+{
+  "name": "RockPaperScissors",
+  "description": "A small game on new tab made by @duc1607",
+  "version": "1.0",
+  "incognito": "split",
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "manifest_version": 2,
+  "icons": {"128": "icon128.png"}
+}

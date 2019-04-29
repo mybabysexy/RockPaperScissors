@@ -22,3 +22,7 @@ button {
 	z-index: 1;
 	left: 0;
 }
+
+#startBtnDiv:hover {
+	cursor: pointer;
+}
